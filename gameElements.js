@@ -40,6 +40,7 @@ class Game {
       this.generateFood();
     }
     this.snake.move();
+    this.ghostSnake.move();
   }
 
   isGameOver() {
