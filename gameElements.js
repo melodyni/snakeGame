@@ -3,7 +3,6 @@ class Game {
     this.snake = snake;
     this.ghostSnake = ghostSnake;
     this.food = food;
-    this.previousFood = new Food(1, 1, 1, "normalFood");
     this.gridSize = gridSize;
     this.score = score;
   }
